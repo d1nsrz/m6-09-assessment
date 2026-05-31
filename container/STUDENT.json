@@ -1,0 +1,13 @@
+{
+  "first_name": "Firuddin",
+  "last_name": "Rzayev",
+  "team": "firuddin-rzayev",
+  "model": {
+    "framework": "yolo26",
+    "variant": "yolo26n",
+    "imgsz": 640,
+    "epochs_total": 80,
+    "tricks": ["mosaic", "cos_lr", "two_stage_finetune"]
+  },
+  "notes": "Single-class cat detector, end-to-end ONNX export."
+}
